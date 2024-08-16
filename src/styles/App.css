@@ -1,0 +1,248 @@
+@import url("https://fonts.cdnfonts.com/css/poppins");
+@import url("https://fonts.cdnfonts.com/css/inter");
+
+* {
+  border: none;
+  outline: none;
+  list-style: none;
+  box-sizing: border-box !important;
+  font-family: "Inter", sans-serif;
+  transition: all 0.3s ease;
+}
+
+body {
+  height: 100vh;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.testDivs {
+  width: 500px;
+  height: 100px;
+  background-color: rgb(199, 16, 77);
+  margin: 2em;
+  padding: 2em;
+}
+
+.darkMode {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+.darkMode a {
+  color: #bb86fc;
+}
+
+.darkMode button {
+  background-color: #3c3c3c;
+  color: #f5f5f5;
+  border: none;
+}
+
+.darkMode input,
+.darkMode textarea {
+  background-color: #232323;
+  color: #f5f5f5;
+  border: none;
+}
+
+.inpt {
+  padding: 0.8rem;
+  background-color: #846c8c1e;
+  min-width: 10px;
+  max-width: 100%;
+}
+
+.input-container > * {
+  background-color: transparent !important;
+}
+
+.dino-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.container-dino-login {
+  width: 70%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-dino-login > h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.container-dino-login > h2 > span {
+  color: #42231f;
+}
+
+.container-dino-login > img {
+  width: 80%;
+  height: 80%;
+}
+
+.btn-c :hover {
+  color: #fff !important;
+  opacity: 0.8 !important;
+  background-color: transparent;
+}
+
+.loader-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.629);
+  backdrop-filter: blur(10px);
+  z-index: 10000000000;
+}
+
+.contenedor-chats-increible {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  z-index: 10000;
+}
+
+.container-all-chat {
+  margin: 1rem;
+  z-index: 10000;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-sizing: border-box;
+  min-width: 300px;
+  max-height: 500px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  transition: cubic-bezier(0.755, 0.05, 0.855, 0.06) 0.05s;
+  max-width: 250px;
+}
+
+.icon-button {
+  cursor: pointer;
+  background-color: #fff;
+  /* max-height: 25px; */
+}
+
+.icon-button:hover {
+  opacity: 0.6;
+}
+
+.container-group-chats{
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+
+.container-group-chats::-webkit-scrollbar {
+  width: 0;
+}
+
+
+
+.container-group-chats-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-top: 0.7rem;
+}
+
+.button-chat {
+  width: 100% !important;
+  padding: 0.4rem 0rem;
+  border-radius: 5px;
+}
+
+.messages-container {
+  color: white;
+  font-family: "Times New Roman", Times, serif !important ;
+  text-align: center;
+}
+
+.send-text-button {
+  background-color: #925b46 !important;
+  color: #fff;
+  font-weight: bold;
+  border: none !important;
+}
+
+.send-text-button:hover {
+  background-color: #42231f;
+  cursor: pointer;
+}
+.input-chat-message {
+  background-color: #feebed;
+  color: black !important;
+  outline: none;
+}
+
+.input-chat-message:hover {
+  outline: none !important;
+  border: 1px solid #feebed !important;
+}
+
+.input-chat-message:focus {
+  border-color: rgb(249, 106, 154);
+  box-shadow: 0 0 0 0.25rem rgb(249, 106, 154, 0.25);
+}
+
+.input-chat-message::placeholder {
+  color: #000;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.chat-not-show {
+  min-width: 3.9rem;
+  border-radius: 100%;
+}
+
+.chat-not-show .icon-button {
+  border-radius: 100%;
+}
+
+.container-all-chat.chat-not-show {
+  margin-top: auto;
+  max-height: 70px !important;
+  max-width: 70px;
+}
+
+@media (max-width: 800px) {
+  .container-all-chat {
+    min-width: 200px;
+    margin: 0.5rem;
+  }
+
+  .chat-not-show {
+    min-width: 3rem;
+  }
+}
+
+.table-striped {
+  background-color: #121212 !important;
+}
+
+.btn-all-products select, .btn-all-products button {
+  width: 70%;
+}
+
+.btn-all-products{
+  width: 50%;
+}

@@ -1,0 +1,36 @@
+.container-dino-login{
+    width: 250px;
+}
+
+.elements{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: start;
+    align-items: start;
+}
+
+.element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+}
+
+.element > img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.olvido-container{
+    padding: 1rem;
+}
+
+.olvido-container input{
+    width: 100% !important;
+}
+
+.olvido-inputs .container-inputs-magics{
+    width: 100% !important;
+}

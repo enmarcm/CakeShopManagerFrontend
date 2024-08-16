@@ -1,0 +1,54 @@
+.container-reports-handler{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FEEBED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-cards{
+    width: 30%;
+    min-width: 200px;
+    height: 60%;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.container-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-buttons button{
+    width: 100% !important;
+}
+
+@media(max-width: 1000px){
+    .container-cards{
+        width: 50%;
+    }
+}
+
+@media(max-width: 800px){
+    .container-cards{
+        width: 70%;
+    }
+}
+
+@media(max-width: 600px){
+    .container-cards{
+        width: 90%;
+    }
+}

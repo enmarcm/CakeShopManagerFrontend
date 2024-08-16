@@ -1,0 +1,9 @@
+.container-clock {
+  font-family: 'Digital-7 Mono', sans-serif;
+  font-size: 3.6rem; /* Hacer los números más grandes */
+  color: #000; /* Cambiar el color a negro */
+  background-color: transparent; /* Hacer el fondo transparente */
+  /* padding: 1.6rem; */
+  text-align: center;
+  font-weight: bold; /* Hacer los números más gruesos */
+}

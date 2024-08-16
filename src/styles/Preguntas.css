@@ -1,0 +1,35 @@
+.card-questions{
+    grid-template-columns: 1fr !important;
+    min-width: 500px;
+}
+
+.question-container *{
+    display: flex !important; 
+    flex-direction: column !important;
+    width: 80% !important;
+    align-items: center;
+}
+
+.questions-h1{
+    font-size: 2rem;
+    text-align: justify;
+}
+
+.question-container label{
+    text-align: left !important;
+}
+
+@media(max-width: 800px){
+    .question-container *{
+        display: flex !important; 
+        flex-direction: column !important;
+        width: 90% !important;
+        align-items: center;
+    }
+
+    .questions-h1{
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+}
+

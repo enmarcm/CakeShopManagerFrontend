@@ -1,0 +1,146 @@
+.container-home-logged{
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background-color: #FEEBED;
+    overflow: scroll;
+}
+
+.container-home-logged::-webkit-scrollbar {
+    display: none; /* Para Chrome, Safari y Opera */
+  }
+
+
+.content-home {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    grid-template-rows: repeat(2, 1fr); /* Tres filas */
+    height: calc(100vh - 7.5rem); /* 6.5rem es el tamaño del nav */
+  }
+
+.content-reloj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.hora-actual{
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.content-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-buttons-card{
+    width: 60%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 0 5px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    height: 70%;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container-item-button{
+    background-color: #FEEBED;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.container-item-button > * {
+    margin: 0;
+}
+
+.container-item-button > h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.grafico{
+    width: 100%;
+    height: 100%;
+
+    min-width: 300px;
+    min-height: 300px;
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.grafico-card {
+    min-width: 420px;
+    min-height: 300px;
+    width:80%;
+    display: flex;
+    height: 80%;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    gap: 1rem;
+}
+
+.grafico-card > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    min-width: 400px;
+    min-height: 300px;
+}
+
+
+
+@media(max-width: 950px){
+
+    .grafico-card{
+        min-width: 220px;
+    }
+
+    .grafico-card > div{
+        min-width: 200px;
+    }
+
+    .container-clock{
+        font-size: 2.5rem !important;  
+    }
+}
+
+@media(max-width: 911px){
+    .content-home{
+        grid-template-columns: 1fr;
+    }
+
+    .content-reloj{
+        min-height: 200px;
+    }
+
+    .content-buttons{
+        min-height: 300px;
+    }
+
+    .grafico{
+        min-height: 500px;
+        grid-column: 1;
+        grid-row: 3;
+    }
+}

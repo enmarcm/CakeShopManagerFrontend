@@ -1,0 +1,49 @@
+.ant-btn{
+    padding: 0px !important;
+}
+
+
+.btn-link{
+    padding: 0;
+    background-color:#fb5361 ;
+    height: auto;
+    border-radius: 0.5rem;
+
+}
+
+.btn-link > a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    font-weight: bold;
+    width: 100%;
+    margin: 0px !important;
+}
+
+/* .btn-link  */
+
+.btn-link > a:hover{
+    background-color: #fff;
+    color: #fb5361 !important;
+    border-radius: 0.5rem;
+    height: auto;
+    border: 1px solid #fb5361 !important;
+}
+
+.btn-no-link{
+    padding: 0.3rem 1.5rem;
+    background-color: #fb5361;
+    color: #fff;
+    border-radius: 0.5rem;
+    height: auto;
+    font-weight: bold;
+}
+
+.btn-no-link:hover{
+    background-color: #fff;
+    color: #fb5361 !important;
+    border-radius: 0.5rem;
+    height: auto;
+    border: 1px solid #fb5361 !important;
+}

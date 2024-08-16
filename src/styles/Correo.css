@@ -1,0 +1,27 @@
+.container-h1{
+    width: 80% !important;
+    padding: 1rem !important;
+}
+
+.container-h1 h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #925B46
+}
+
+.container-h1 p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #925B46;
+}
+
+.correo-container{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+}
+
+.container-card{
+    min-width: 500px !important;
+}

@@ -1,0 +1,82 @@
+/* Estilos para el componente de mensaje */
+.message-container {
+    background-color: #DCF8C6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.message-container.sent {
+    background-color: #fc858f ;
+    align-self: flex-end;
+}
+
+.message-container.received {
+    background-color: #fa3a4a ;
+    align-self: flex-start;
+}
+
+.message-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message-info p {
+    margin: 0;
+}
+
+.message-content {
+    margin-top: 5px;
+}
+
+.message-content img {
+    max-width: 200px;
+}
+
+.message-content p {
+    margin: 0;
+}
+
+.message-container.sent{
+    display: block;
+}
+
+.message-info{
+    background-color: #925b46  ;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.message-info.enviando{
+    justify-content: end;
+}
+
+.message-info.recibiendo{
+    justify-content: start;
+}
+
+.message-info p{
+    color: #fff;
+    margin: 0;
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+.message-content.enviando{
+    text-align: end !important;
+}
+
+.message-content.recibiendo{
+    text-align: start !important;
+}
+
+.message-content{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    /* background-color: #DCF8C6; */
+    /* text-align: start; */
+}

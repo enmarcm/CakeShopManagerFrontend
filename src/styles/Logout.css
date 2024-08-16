@@ -1,0 +1,45 @@
+.container-logout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FEEBED;
+}
+
+.cardLogout{
+    min-width: 300px;
+    width: 20%;
+    height: auto;
+    min-height: 150px;
+    box-shadow: 0px 0px 10px 0px #f6939c;
+    background-color: #FB5361;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cardLogout h1{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.btnRegresar{
+  background-color: #fff;
+  color: #FB5361;
+  font-weight: 500;
+  padding: 0;
+  height: auto;
+}
+
+.btnRegresar > a{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+}
